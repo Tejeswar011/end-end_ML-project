@@ -1,8 +1,8 @@
 from setuptools import find_packages,setup
-from typing import list
+from typing import List
 
-hypen_e_dot=='-e .'
-def get_requirements(file_path:str)->list[str]:
+hypen_e_dot = "-e ."
+def get_requirements(file_path:str)->List[str]:
     '''
     this function will return the list of requirements
     '''
